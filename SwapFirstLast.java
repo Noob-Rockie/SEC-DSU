@@ -4,7 +4,7 @@ public class SwapFirstLast {
         int temp = arr[0];
         arr[0] = arr[arr.length - 1];
         arr[arr.length - 1] = temp;
-        // Print array after swap
+        
         for (int num : arr) {
             System.out.print(num + " ");
         }
